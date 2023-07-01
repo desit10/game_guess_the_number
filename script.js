@@ -4,7 +4,7 @@ const RandomNumber = () => {
   return Math.trunc(Math.random() * 20) + 1;
 };
 
-const disGuessMessage = message => {
+const displayGuessMessage = message => {
   document.querySelector('.guess-message').textContent = message;
 };
 
